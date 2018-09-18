@@ -18,9 +18,8 @@ class m180829_131508_create_users_table extends Migration
             'username' => $this->string(255)->notNull(),
             'email' => $this->string(255)->notNull(),
             'password' => $this->string(255)->notNull(),
+            'role' => $this->string(255)->defaultValue('user'),
             'authKey' => $this->string(255),
-            'accessToken' => $this->string(255),
-            'isActive' => $this->boolean()->defaultValue(0),
         ]);
 
         $this->createTable('meetings', [

@@ -113,3 +113,26 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+/* My new styles */
+
+.signin_form, .signup_form {
+    max-width: 500px;
+}
+.form_btns {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup_btn, .signin_btn {
+    background-color: #3c3c3c;
+    border-color: #3c3c3c;
+    color: white;
+}
+
+.signup_btn:hover, .signin_btn:hover {
+    background-color: #0f0f0f;
+    border-color: #0f0f0f;
+    color: white;
+}

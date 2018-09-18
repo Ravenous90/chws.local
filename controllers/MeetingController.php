@@ -1,13 +1,17 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: askolotii
+ * Date: 18.09.2018
+ * Time: 10:57
+ */
 
 namespace app\controllers;
 
-use app\models\Signin;
-use app\models\Signup;
-use Yii;
+
 use yii\web\Controller;
 
-class SiteController extends Controller
+class MeetingController extends Controller
 {
     public function actionIndex()
     {
